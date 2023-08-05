@@ -16,5 +16,9 @@ for i in range(n):
 
 sp2 = list()
 for i in range(len(sp)):
-    sp2.append(sp[i] + sp[i-1] + sp[i-2])
+    sp2.append(sp[i] + sp[i-1] + sp[i+1])
 print(max(sp2))
+
+
+
+
